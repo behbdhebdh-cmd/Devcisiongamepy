@@ -1,6 +1,6 @@
 # Devcisiongamepy
 
-Kleines, textbasiertes Decision-Game inspiriert von Road 96. Du reist per Konsole durch mehrere Stationen, triffst Entscheidungen und beeinflusst Werte wie Gesundheit, Geld, Freiheit, Vertrauen und Moral.
+Kleines, textbasiertes Decision-Game inspiriert von Road 96. Du reist per Konsole durch mehrere Stationen, triffst Entscheidungen und beeinflusst Werte wie Gesundheit, Geld, Freiheit, Vertrauen, Moral und Fahndungsdruck.
 
 ## Spielstart
 
@@ -9,8 +9,9 @@ python game.py
 ```
 
 ## Regeln
-- Jede Station präsentiert ein zufälliges Event mit mehreren Optionen.
-- Entscheidungen verändern deine Werte und können Folgeereignisse auslösen.
+- Jede Station präsentiert ein gewichtetes, zufälliges Event mit mehreren Optionen.
+- Entscheidungen verändern deine Werte, können Flags setzen (z. B. "exposed") und Folgeeffekte auslösen.
+- Reisestrapazen kosten dich nach jedem Event automatisch Ressourcen.
 - Das Spiel endet, wenn du genug Freiheit sammelst, deine Ressourcen aufgebraucht sind oder die vorgegebenen Stationen vorbei sind.
 
 ## Erweiterungsideen
